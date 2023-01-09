@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #333;
+    font-family: cursive;
+    font-size: 25px;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+    text-align: center;
+    cursor: pointer;
+}
+
+.bar {
+    margin-top: 20px;
+    display: flex;
+    width: 500px;
+}
+
+.red-bar {
+    border-radius: 2.5px 0 0 2.5px;
+    height: 5px;
+    width: 1%;
+    background-color: red;
+}
+
+.white-bar {
+    height: 5px;
+    width: 99%;
+    background-color: white;
+    border-radius: 0 4px 4px 0;
+}
